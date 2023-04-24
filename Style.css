@@ -1,0 +1,356 @@
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    transition-duration: 0.5s;
+}
+:root {
+    --max-width: 1024px;
+    --color: #F6BE00;
+    --white: #ebebeb;
+    --black: #121212;
+    --DescColor:#777;
+}
+.header .logo{
+    width: 200px;
+    cursor: pointer;
+}
+.header ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #767676;
+    text-transform:capitalize;
+    font-size: 17.5px;
+}
+.header{
+    max-width: var(--max-width);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header ul :nth-child(1){
+    color: var(--color);
+}
+.header li{
+    cursor: pointer;
+    transition-duration:0.5s;
+}
+.header ul li:hover{
+    color: var(--color);
+}
+section.p1 .first-slide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+    color: #121212;
+    font-size: 16.5px;
+    background-color: var(--color);
+    padding: 14px 35px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #E3B512;
+}
+.btn:last-child{
+    border: 2px black solid;
+    background-color: transparent;
+    padding: 0 17px;
+    transition-duration:0.5s;
+    cursor: pointer;
+}
+.btn:last-child:hover{
+    background-color: #222;
+    color: white;
+}
+section.p1{
+    height: 100vh;
+    display: flex;
+}
+.pages{
+    max-width: var(--max-width);
+    width: 100%;
+}
+.btns {
+    display: flex;
+    gap: 15px;
+}
+section.p1 .title span{
+    color: var(--color);
+}
+section.p1 .title{
+    font-size: 35px;
+    width: 418px;
+    font-weight: bold;
+    color: var(--black);
+}
+section.p1 .desc {
+    width: 394px;
+    color: var(--DescColor);
+    font-size: 17px;
+    margin: 10px 0 10px 0px;
+}
+section.p1{
+    height: calc(100vh - 96px);
+}
+img.lottie{
+    width: 350px;
+}
+section.p1 {
+    display: flex;
+    justify-content: space-between;
+}
+section.p1 .last-slide{
+    display: flex;
+    margin-bottom: 30px;
+}
+section.p2 .title{
+    color: var(--black);
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+section.p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.p2 .desc{
+    width: 535px;
+    text-align: center;
+    color: var(--DescColor);
+}
+section.p2 .title span{
+    color: var(--color);
+}
+.box{
+    border: 3px solid #C4C4C4;
+    border-radius: 25px;
+    height: 315px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxs {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+section.p2 .icon{
+    height: 75px;
+    margin-top: 50px;
+}
+section.p2 .box .desc{
+    width: 296px;
+    margin-top: 20px;
+    color: #6b6b6b;
+}
+.btn-2{
+    border: 3px solid #C3C3C3;
+    border-radius: 22px;
+    margin-top: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration:0.5s;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color:#C3C3C3;
+    color: var(--black);
+}
+section.p3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+section.p3 .title{
+    color: var(--black);
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+section.p3 .title span {
+    color: var(--color);
+}
+section.p3 .desc{
+    color: var(--DescColor);
+    font-size: 16.5px;
+    margin-top: 10px;
+}
+section.p3 .lottie{
+    width: 550px;
+}
+section.p3 .first-slide{
+    display: flex;
+}
+section.p3{
+    display: flex;
+    flex-direction: column;
+}
+section.p3 .last-slide{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+}
+.p3 .content {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+section.p3 .icon{
+    height: 60px;
+}
+section.p3 .last-slide .desc{
+    color: var(--DescColor);
+    width: 367px;
+}
+footer{
+    background-color: #151515;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 270px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-transform: capitalize;
+}
+.row ul li {
+    list-style: none;
+}
+.row ul li a{
+    text-decoration: none;
+    color: #767676;
+    transition-duration:0.5s;
+}
+.footer-col{
+    font-size: 15px;
+    color: var(--white);
+}
+.footer-col ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+h4{
+    font-size: 17px;
+    margin: 0;
+    font-weight: 500;
+}
+.row ul li a:hover{
+    color: var(--color);
+}
+.footer .logo img{
+    display: flex;
+    width: 170px;
+    cursor: pointer;
+}
+.footer .logo{
+    display: flex;
+}
+.white-font-color{
+    color: #eee;
+}
+.dark-background{
+    background-color: #222;
+}
+@media only screen and (max-width: 800px) {
+    img.lottie{
+        display: none;
+   }
+   .header{
+        display: none;
+   }
+   section.p1 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+   section.p2 .title{
+        font-size: 25px;
+        text-align: center;
+   }
+   section.p2 .desc {
+        width: 340px;
+        text-align: center;
+        color: var(--DescColor);
+   }
+   .boxs{
+        display: flex;
+        flex-direction: column;
+   }
+   section.p3 .title{
+        font-size: 25px;
+   }
+   .row{
+        display:flex;
+        flex-direction: column;
+   }
+   footer{
+        height: auto;
+   }
+   .container{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        padding: 3em 0;
+   }
+   section.p1 .title{
+        font-size: 26px;
+        width: 320px 
+   }
+   section.p1 .desc{
+        width: 320px;
+        font-size: 16px;
+   }
+   section.p3 .last-slide .desc{
+        width: 265px;
+   }
+   .p3 .content {
+        gap: 0;
+   }
+   section.p3 .desc{
+        width: auto;
+        padding: 20px;
+        text-align: center;
+   }
+   .A1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+   }
+   .row {
+        gap: 20px;
+   }
+}
